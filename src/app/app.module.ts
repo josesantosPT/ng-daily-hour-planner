@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NgDailyHourPlannerModule } from './ng-daily-hour-planner/ng-daily-hour-planner.module';
 
@@ -10,7 +9,6 @@ import { NgDailyHourPlannerModule } from './ng-daily-hour-planner/ng-daily-hour-
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     NgDailyHourPlannerModule
   ],
   providers: [],

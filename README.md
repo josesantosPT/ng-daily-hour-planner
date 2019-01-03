@@ -13,3 +13,7 @@ You can define the following properties of the &lt;app-ng-daily-hour-planner&gt;
 - **startHour**: Number that specifies the starting hour for the component (0-24
 - **endHour**: Number that specifies the ending hour for the component (0-24)
 - **interval**: Number that specifies the amount of minutes that the table is split into.
+
+
+### Example 
+![Demo Image](https://github.com/josesantosPT/ng-daily-hour-planner/raw/master/hour-planner-demo.PNG)
