@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'daily-planner-demo';
+
+  demoData = [];
+
+  demoTags = [
+    {'name' : 'Sleep', 'color': '#ffffcc'},
+    {'name' : 'Work', 'color': '#c5eff7'},
+    {'name' : 'Play', 'color': '#ff9478'},
+  ];
 }

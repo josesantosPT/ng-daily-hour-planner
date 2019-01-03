@@ -1,0 +1,21 @@
+<div class="planner-day-container" >
+  <div
+    mwlDroppable
+    (drop)="droppedItem(dataItem.time,$event)"
+    class="planner-item"
+    [style.background-color]="dataItem.color"
+    *ngFor="let dataItem of data">
+      <span class="planner-hour noselect">{{dataItem.time/60 | number:'2.0'}}:{{dataItem.time%60 | number:'2.0'}}</span>
+      <span class="noselect">{{dataItem.tag}}</span>
+  </div>
+</div>
+<div class="planner-tags-container" ng-show="showTags">
+    <div
+    mwlDraggable
+    [dropData]="dataTag"
+    class="planner-tag noselect"
+    [style.background-color]="dataTag.color"
+    *ngFor="let dataTag of tags">
+      {{dataTag.name}}
+  </div>
+</div>

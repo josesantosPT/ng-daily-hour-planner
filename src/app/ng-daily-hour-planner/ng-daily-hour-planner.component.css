@@ -1,0 +1,53 @@
+.planner-day-container {
+  width: 100px;
+  float:left;
+}
+
+.planner-item {
+  background:#FFFFFF;
+  padding:5px;
+  height: 18px;
+  text-align:right;
+  vertical-align:bottom;
+  font-weight:300;
+  font-size:14px;
+  position:relative;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+  border-bottom: 1px solid #eeeeee;
+}
+.planner-item:hover {
+  background-color: lightgrey !important;
+}
+
+.planner-hour {
+  font-size: 9px;
+  color: gray;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.planner-tags-container {
+  width: 60px;
+  float:left;
+  margin-left: 10px;
+}
+.planner-tag {
+  width: 60px;
+  height: 19px;
+  line-height: 19px;
+  font-size: 12px;
+  cursor: pointer;
+  position:relative;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
