@@ -50,7 +50,7 @@ export class NgDailyHourPlannerComponent implements OnInit {
 
   droppedItem(timeData: number, droppedTag ) {
     console.log(droppedTag);
-    let res: DataPlannerItemComponent = this.data.filter(obj => {
+    const res: DataPlannerItemComponent = this.data.filter(obj => {
       return obj.time === timeData;
     })[0];
     res.tag = droppedTag.dropData.name;
