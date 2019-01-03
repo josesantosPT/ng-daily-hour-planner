@@ -25,7 +25,6 @@ export class NgDailyHourPlannerComponent implements OnInit {
 
   @Input() tags: TagPlannerItem[];
   @Input() data: DataPlannerItemComponent[];
-  @Input() showTags = true;
 
   constructor() {
 
