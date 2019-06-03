@@ -10,7 +10,7 @@ Angular 6 Component that allows tagging the hours in a day by dragging labels in
 ### Component Properties
 You can define the following properties of the &lt;app-ng-daily-hour-planner&gt; directive:
 
-- **startHour**: Number that specifies the starting hour for the component (0-24
+- **startHour**: Number that specifies the starting hour for the component (0-24)
 - **endHour**: Number that specifies the ending hour for the component (0-24)
 - **interval**: Number that specifies the amount of minutes that the table is split into.
 
